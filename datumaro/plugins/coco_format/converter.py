@@ -29,27 +29,27 @@ class _TaskConverter:
         self._context = context
 
         data = {
-            'licenses': [],
-            'info': {},
+            # 'licenses': [],
+            # 'info': {},
             'categories': [],
             'images': [],
             'annotations': []
             }
 
-        data['licenses'].append({
-            'name': '',
-            'id': 0,
-            'url': ''
-        })
-
-        data['info'] = {
-            'contributor': '',
-            'date_created': '',
-            'description': '',
-            'url': '',
-            'version': '',
-            'year': ''
-        }
+        # data['licenses'].append({
+        #     'name': '',
+        #     'id': 0,
+        #     'url': ''
+        # })
+        #
+        # data['info'] = {
+        #     'contributor': '',
+        #     'date_created': '',
+        #     'description': '',
+        #     'url': '',
+        #     'version': '',
+        #     'year': ''
+        # }
         self._data = data
 
     def is_empty(self):
